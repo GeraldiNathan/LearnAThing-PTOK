@@ -29,7 +29,6 @@ body {
 }
 
 .sidenav .bot-nav {
-  /* margin-top: 23rem; */
   margin-top: 15rem;
 }
 
@@ -100,4 +99,46 @@ body {
 
 .mainTxtFooter {
   font-weight: 700;
+}
+
+.container-header {
+  margin-left: 18rem;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20rem;
+}
+
+.tab-title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.DropdownProfile {
+  display: flex;
+  gap: 15px;
+}
+
+.DropdownProfile .bx-bell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProfileButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: none;
+}
+
+.ProfileButton img {
+  border-radius: 50%;
 }
