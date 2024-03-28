@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: #fafcfd;
 }
 
 .sidenav {
@@ -18,7 +18,6 @@ body {
   left: 0;
   height: 100%;
   width: 255px;
-  /* border: 1px solid black; */
   background-color: white;
   padding: 6px 14px;
 }
@@ -31,7 +30,7 @@ body {
 .sidenav .bot-nav {
   width: 220px;
   position: fixed;
-  margin-top: 23rem;
+  margin-top: 17rem;
 }
 
 .sidenav ul li {
@@ -196,8 +195,7 @@ body {
 
 .container-dashboard {
   margin-left: 18rem;
-  background-color: #f5f5f5;
-  padding: 20px;
+  background-color: #fafcfd;
   margin-top: 15px;
   height: 450px;
   display: flex;
