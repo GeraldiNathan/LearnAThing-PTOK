@@ -29,9 +29,9 @@ body {
 }
 
 .sidenav .bot-nav {
-  /* width: 100%; */
-  position: relative;
-  margin-top: 19rem;
+  width: 220px;
+  position: fixed;
+  margin-top: 23rem;
 }
 
 .sidenav ul li {
@@ -82,7 +82,6 @@ body {
 .sidenav ul li .bx-search {
   position: absolute;
   z-index: 99;
-  /* color: #f6995c; */
 }
 
 .sidenav .footer {
@@ -109,6 +108,7 @@ body {
   background-color: white;
   padding: 15px;
   margin-top: 15px;
+  border-radius: 8px;
 }
 
 .header-content {
@@ -153,6 +153,7 @@ body {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
+  border-radius: 8px;
 }
 
 .head-icon .bx-check {
@@ -207,12 +208,14 @@ body {
   background-color: white;
   width: 570px;
   padding: 30px;
+  border-radius: 8px;
 }
 
 .rightDashboard {
   background-color: white;
   width: 570px;
   padding: 30px;
+  border-radius: 8px;
 }
 
 .myLesson {
